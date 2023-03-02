@@ -11,7 +11,7 @@ const Doctors = ({ doctors }) => {
           <Col key={dr.id}>
             <img src={dr.img} alt="dr.name" xs={6} sm={4} md={3}/>
             <h4>{dr.name}</h4>
-            <h5>{dr.dep}</h5>
+            <h6>{dr.dep}</h6>
           </Col>
         ))}
       </Row>
